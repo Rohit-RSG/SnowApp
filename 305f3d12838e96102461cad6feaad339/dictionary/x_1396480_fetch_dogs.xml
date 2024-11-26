@@ -2,7 +2,7 @@
     <element db_object_id="feef3592838e96102461cad6feaad31c" label="Dogs" max_length="40" name="x_1396480_fetch_dogs" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Adopion Center" max_length="32" name="adopion_center" reference="x_1396480_fetch_adoption_center" type="reference"/>
-        <element label="Bio" max_length="255" name="bio" type="string_full_utf8"/>
+        <element label="Bio" max_length="1000" name="bio" type="string_full_utf8"/>
         <element choice="1" label="Breed" max_length="40" name="breed" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Labrador" sequence="0" value="Labrador"/>
