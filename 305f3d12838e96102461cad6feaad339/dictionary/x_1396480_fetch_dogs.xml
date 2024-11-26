@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="feef3592838e96102461cad6feaad31c" label="Dogs" max_length="40" name="x_1396480_fetch_dogs" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Adopion Center" max_length="32" name="adopion_center" reference="x_1396480_fetch_adoption_center" type="reference"/>
+        <element label="Bio" max_length="1000" name="bio" type="string_full_utf8"/>
+        <element choice="1" label="Breed" max_length="40" name="breed" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Labrador" sequence="0" value="Labrador"/>
+                <element inactive_on_update="false" label="German Shepherd" sequence="1" value="German Shepherd"/>
+                <element inactive_on_update="false" label="Mix" sequence="2" value="Mix"/>
+                <element inactive_on_update="false" label="Poodle" sequence="3" value="Poodle"/>
+            </choice>
+        </element>
+        <element label="Vaccines" max_length="40" name="vaccines" type="boolean"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element label="Picture" max_length="40" name="picture" type="user_image"/>
+        <element label="Shots" max_length="40" name="shots" type="boolean"/>
+        <element choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="Pending"/>
+                <element inactive_on_update="false" label="Adopted" sequence="2" value="Adopted"/>
+                <element inactive_on_update="false" label="Active" sequence="0" value="Active"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="adopion_center"/>
+        </index>
+    </element>
+</database>

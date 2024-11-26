@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2024-11-26 08:14:29</change_date>
+        <changed_by display_value="Rohit Singh Gaur">ab01a625837902102461cad6feaad381</changed_by>
+        <content display_value="IT Operations Management Guided Setup">f52f9c00c31022007bf1bea192d3aef8</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>eauorgh</sys_created_by>
+        <sys_created_on>2024-11-26 08:14:29</sys_created_on>
+        <sys_id>b16ae46e83861a102461cad6feaad363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2024-11-26 08:14:29</sys_name>
+        <sys_package display_value="Fetch" source="x_1396480_fetch">305f3d12838e96102461cad6feaad339</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">305f3d12838e96102461cad6feaad339</sys_scope>
+        <sys_update_name>gsw_change_log_b16ae46e83861a102461cad6feaad363</sys_update_name>
+        <sys_updated_by>eauorgh</sys_updated_by>
+        <sys_updated_on>2024-11-26 08:14:29</sys_updated_on>
+        <type>1</type>
+    </gsw_change_log>
+</record_update>
